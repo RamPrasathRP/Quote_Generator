@@ -1,0 +1,63 @@
+/* General Styles  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato',sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #ede8f5;
+}
+.container{
+    width: 550px;
+    height: 450px;
+}
+.header{
+    font-size: 1.2rem;
+    border: #172047 200px;
+    color: #172047 ;
+    padding: 12px;
+    width: 80%;
+    margin: 20px auto;
+}
+.main-content{
+    width: 100%;
+    height: 300px;
+    background-color:rgb(236, 198, 210);
+    border-radius: 20px;
+    padding: 50px 40px;
+    box-shadow: 0 0 9px;
+}
+.main-content .text-area {
+    font-size: 1.5rem;
+    line-height: 1.5;
+
+}
+.main-content .person{
+    font-size: 1.6rem;
+    color: crimson;
+    text-transform: uppercase;
+    margin-top: 20px;
+
+}
+.button-area button{
+    margin-top: 20px;
+    background-color: #8697C4;
+   /* color: white; */
+   border-radius: 10px;
+   /* width: 200px;
+   height: 25px; */
+   font-size: 1rem;
+   padding: 10px 15px;
+}
+
+.button-area button:active{
+    background-color:rgb(224, 174, 174);
+}
